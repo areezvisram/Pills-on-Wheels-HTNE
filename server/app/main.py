@@ -399,7 +399,4 @@ def driversView():
 
     return jsonify(driverDict)
 
-@app.route('/pleb')
-def plebView():
-    return '<h1>Pleb</h1>'
 
